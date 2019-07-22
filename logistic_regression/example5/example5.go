@@ -76,7 +76,7 @@ func main() {
 	features := mat64.NewDense(len(rawCSVData)-1, 2, featureData)
 
 	// Train the logistic regression model.
-	weights := logisticRegression(features, labels, 1000, 0.3)
+	weights := logisticRegression(features, labels, 4000, 1e-4)
 
 	// Output the Logistic Regression model formula to stdout.
 	formula := "p = 1 / ( 1 + exp(- m1 * FICO.score - m2) )"

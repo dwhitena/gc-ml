@@ -90,7 +90,7 @@ func main() {
 func predict(score float64) float64 {
 
 	// Calculate the predicted probability.
-	p := 1 / (1 + math.Exp(-13.65*score+4.89))
+	p := 1 / (1 + math.Exp(-5.45*score+2.23))
 
 	// Output the corresponding class.
 	if p >= 0.5 {
