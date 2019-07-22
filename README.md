@@ -14,15 +14,15 @@ This is material for the 2019 "Machine learning and AI with Go" workshop at Goph
 
 ## Agenda
 
-9:00-9:30 Introductions, Logistics 🎤
-9:30-10:30 [Introduction to ML/AI](#introduction-to-machine-learning-and-ai) 🧠
-10:30-11:00 Break ☕
-11:00-12:00 [Linear and Logistic Regression](#linear-regression) 📈
-12:00-1:00 Lunch 🍕
-1:00-2:00 [Neural Networks, Deep Learning](#neural-networks) 🤖
-2:30-3:00 Break ☕
-3:00-4:30 [Hands on](#hands-on) ⌨️
-4:30-5:00 Next steps, Conclusions 💥
+9:00-9:30 Introductions, Logistics 🎤   
+9:30-10:30 [Introduction to ML/AI](#introduction-to-machine-learning-and-ai) 🧠   
+10:30-11:00 Break ☕   
+11:00-12:00 [Linear and Logistic Regression](#linear-regression) 📈   
+12:00-1:00 Lunch 🍕   
+1:00-2:00 [Neural Networks, Deep Learning](#neural-networks) 🤖   
+2:30-3:00 Break ☕   
+3:00-4:30 [Hands on](#hands-on) ⌨️   
+4:30-5:00 Next steps, Conclusions 💥   
 
 ## Introduction to Machine Learning and AI 🧠
 
