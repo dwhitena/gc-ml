@@ -61,8 +61,8 @@ func main() {
 
 	// New Logistic regression model from goml (optimization method:
 	// Batch Gradient Ascent, Learning rate: 1e-4, Regulatization term: 6,
-	// Max Iterations: 800, Dataset to learn fron: trainX,
-	// Expected results dataset: trainY)
+	// Max Iterations: 800, Dataset to learn fron: features,
+	// Expected results dataset: labels)
 	model := linear.NewLogistic(base.BatchGA, 1e-4, 1, 800, features, labels)
 
 	// Train the logistic regression model.
