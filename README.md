@@ -21,7 +21,7 @@ This is material for the 2019 "Machine learning and AI with Go" workshop at Goph
 12:00-1:00 Lunch 🍕   
 1:00-2:00 [Neural Networks, Deep Learning](#neural-networks-) 🤖   
 2:30-3:00 Break ☕   
-3:00-4:30 [Hands on](#hands-on-) ⌨️   
+3:00-4:30 [Hands on](#hands-on-%EF%B8%8F) ⌨️   
 4:30-5:00 Next steps, Conclusions 💥   
 
 ## Introduction to Machine Learning and AI 🧠
