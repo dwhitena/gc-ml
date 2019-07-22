@@ -1,28 +1,41 @@
 ![Alt text](https://docs.google.com/drawings/d/e/2PACX-1vT37glyZXd8ViXedt0LCSpzsbWCUSSLhWuR3o5_74tL92fh7zeIo3hVtCzhnpw8IeWAM-KcI419cIkm/pub?w=745&h=310)
 
-# Machine Learning with Go
+# Machine Learning and AI with Go
 
-This is material for any Go developer, data scientist, analyst, or statistician who wishes to learn how to build robust machine learning (ML) applications in Go. This class provides an intensive, comprehensive and idiomatic view on training, utilizing, evaluating, and deploying machine learning models using Go. We believe this class is perfect for anyone wishing to build data-driven applications that produce valuable insights, have reproducible behavior, and can be deployed within modern architectures.
+This is material for the 2019 "Machine learning and AI with Go" workshop at GopherCon. The workshop provides an intensive, comprehensive and idiomatic view on training, utilizing, evaluating, and deploying machine learning  and AI models using Go. We believe this class is perfect for anyone wishing to build data-driven applications that produce valuable insights, have reproducible behavior, and can be deployed within modern architectures.
 
-- [Slides from the class](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
+- [Slides from the workshop](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
 - Instructors 
   - Daniel Whitenack - [website/blog](http://www.datadan.io/), [twitter](https://twitter.com/dwhitena), [github](https://github.com/dwhitena)
   - Mariah Peterson - [twitter](https://twitter.com/captainnobody1), [github](https://github.com/Soypete)
-- During the class, you will also need to work a bit at the command line. If you are new to the command line or need a refresher, look through [this quick tutorial](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything).
+- During the workshop, you will also need to work a bit at the command line. If you are new to the command line or need a refresher, look through [this quick tutorial](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything).
 
-*Note: This material has been designed to be taught in a classroom environment. The code is well commented but missing some of the contextual concepts and ideas that will be covered in class.*
+*Note: This material has been designed to be taught in a classroom environment at GopherCon. The code is well commented but missing some of the contextual concepts and ideas that will be covered in class.*
 
-## ML and the ML workflow
+## Introduction to Machine Learning and AI 
 
-This material introduces the basics of machine learning and the workflow that should be used when developing and utilizing machine learning models. Once you are done with this material, you will be exposed to the most commonly used machine learning techniques and you will understand the significance of data profiling, training, evaluation, validation, and inference. 
+[See slides](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
 
-[ML and the ML workflow](ml_intro)
+## Linear and Logistic Regression
 
-## ML with Go
+Linear regression code examples:
 
-This material introduces some Go packages and frameworks that will help us implement ML in Go. Once you are done with this material, you will know where to look to find ML-related packages for Go, have some hands-on experience working with these packages, and understand the utility of Go for ML.
+- [Example 1: Profiling advertising/sales data](linear_regression/example1/example1.go)
+- [Example 2: Splitting the data into training/test](linear_regression/example2/example2.go)
+- [Example 3: Training a linear regression model, SGD](linear_regression/example3/example3.go)
+- [Example 4: Training a single regression model w/ github.com/sajari/regression](linear_regression/example4/example4.go)
+- [Example 5: Training a multiple regression model w/ github.com/sajari/regression](linear_regression/example5/example5.go)
+- [Example 6: Evaluating regression models](linear_regression/example6/example6.go)
 
-[ML with Go](ml_with_go)
+Logistic regression code examples:
+
+- [Example 1: Plotting a logistic function](logistic_regression/example1/example1.go)
+- [Example 2: "Clean" loan data](logistic_regression/example2/example2.go)
+- [Example 3: Profile the loan data](logistic_regression/example3/example3.go)
+- [Example 4: Split the data into training/test](logistic_regression/example4/example4.go)
+- [Example 5: Train a logistic regression model](logistic_regression/example5/example5.go)
+- [Example 6: Evaluate the logistic regression model](logistic_regression/example6/example6.go)
+- [Example 6: Train a logistic regression model w/ github.com/cdipaolo/goml](logistic_regression/example7/example7.go)
 
 ## Building a complete Go-based ML workflow
 
