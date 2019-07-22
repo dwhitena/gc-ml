@@ -4,16 +4,11 @@
 
 This is material for any Go developer, data scientist, analyst, or statistician who wishes to learn how to build robust machine learning (ML) applications in Go. This class provides an intensive, comprehensive and idiomatic view on training, utilizing, evaluating, and deploying machine learning models using Go. We believe this class is perfect for anyone wishing to build data-driven applications that produce valuable insights, have reproducible behavior, and can be deployed within modern architectures.
 
-- [Slides from the class](https://docs.google.com/presentation/d/1BMRPCNPptXsLxw40-1c7HG2UEXOK-sBp8OfloJrCv6I/edit?usp=sharing)
+- [Slides from the class](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
 - Instructors 
-  - Daniel Whitenack - author of [Machine Learning with Go](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go), [website/blog](http://www.datadan.io/), [online courses](http://learn.datadan.io/), [twitter](https://twitter.com/dwhitena), [github](https://github.com/dwhitena)
-  - Diana Ortega - [twitter](https://twitter.com/dicaormu)
-- Prerequisties/getting started:
-  - You will need to ssh into a cloud instance. Remind yourself of how to do that and install a client if needed:
-    - On a Mac or Linux machine, you should be able to ssh from a terminal (see these [Mac instructions](http://accc.uic.edu/answer/how-do-i-use-ssh-and-sftp-mac-os-x) and [Linux instructions](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu)).
-    - On a Windows machine, you can either [install and use an ssh client (I recommend PuTTY)](https://www.putty.org/) or [use the WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-  - You will also need to work a bit at the command line. If you are new to the command line or need a refresher, look through [this quick tutorial](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything).
-- If you need further help productionizing Go ML/AI workflows, want to bring this class to your company, or just have ML/AI related questions, [Ardan Labs](https://www.ardanlabs.com/) is here to help! Reach out to the instructor using the links above or via the [Ardan Labs website](https://www.ardanlabs.com/). 
+  - Daniel Whitenack - [website/blog](http://www.datadan.io/), [twitter](https://twitter.com/dwhitena), [github](https://github.com/dwhitena)
+  - Mariah Peterson - [twitter](https://twitter.com/captainnobody1), [github](https://github.com/Soypete)
+- During the class, you will also need to work a bit at the command line. If you are new to the command line or need a refresher, look through [this quick tutorial](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything).
 
 *Note: This material has been designed to be taught in a classroom environment. The code is well commented but missing some of the contextual concepts and ideas that will be covered in class.*
 
