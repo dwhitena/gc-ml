@@ -16,7 +16,7 @@ This is material for the 2019 "Machine learning and AI with Go" workshop at Goph
 
 [See slides](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
 
-## Linear and Logistic Regression
+## Linear Regression
 
 Linear regression code examples:
 
@@ -26,6 +26,8 @@ Linear regression code examples:
 - [Example 4: Training a single regression model w/ github.com/sajari/regression](linear_regression/example4/example4.go)
 - [Example 5: Training a multiple regression model w/ github.com/sajari/regression](linear_regression/example5/example5.go)
 - [Example 6: Evaluating regression models](linear_regression/example6/example6.go)
+
+## Logistic Regression
 
 Logistic regression code examples:
 
@@ -37,11 +39,20 @@ Logistic regression code examples:
 - [Example 6: Evaluate the logistic regression model](logistic_regression/example6/example6.go)
 - [Example 6: Train a logistic regression model w/ github.com/cdipaolo/goml](logistic_regression/example7/example7.go)
 
-## Building a complete Go-based ML workflow
+## Neural Networks
 
-This material walks you through a lab in which you will implement a full ML workflow with Go, from data ingress to training to evaluation to inference. Once you are done with this material, you know how to implement and deploy the stages of the ML workflow in Go (for at least one type of ML model and data), and you will be able to transfer this workflow scaffolding to other problems.
+Neural Network code examples:
 
-[Building a complete Go-based ML workflow](ml_workflow)
+- [Example 1: Building a simple neural network](neural_networks/example1/example1.go)
+- [Example 2: Utilizing the simple neural network for classification](neural_networks/example2/example2.go)
+
+## Deep Learning
+
+Deep Learning code examples:
+
+- [Example 1: Using the TensorFlow Go bindings for inference](deep_learning/example1/example1.go)
+- [Example 2: Using GoCV to analyze video](deep_learning/example2/example2.go)
+- [Example 3: Sentiment analysis with MachineBox](deep_learning/example3/example3.go)
 
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).
