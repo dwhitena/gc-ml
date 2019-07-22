@@ -12,11 +12,23 @@ This is material for the 2019 "Machine learning and AI with Go" workshop at Goph
 
 *Note: This material has been designed to be taught in a classroom environment at GopherCon. The code is well commented but missing some of the contextual concepts and ideas that will be covered in class.*
 
-## Introduction to Machine Learning and AI 
+## Agenda
+
+9:00-9:30 Introductions, Logistics 🎤
+9:30-10:30 [Introduction to ML/AI](#introduction-to-machine-learning-and-ai) 🧠
+10:30-11:00 Break ☕
+11:00-12:00 [Linear and Logistic Regression](#linear-regression) 📈
+12:00-1:00 Lunch 🍕
+1:00-2:00 [Neural Networks, Deep Learning](#neural-networks) 🤖
+2:30-3:00 Break ☕
+3:00-4:30 [Hands on](#hands-on) ⌨️
+4:30-5:00 Next steps, Conclusions 💥
+
+## Introduction to Machine Learning and AI 🧠
 
 [See slides](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
 
-## Linear Regression
+## Linear Regression 📈
 
 Linear regression code examples:
 
@@ -27,7 +39,7 @@ Linear regression code examples:
 - [Example 5: Training a multiple regression model w/ github.com/sajari/regression](linear_regression/example5/example5.go)
 - [Example 6: Evaluating regression models](linear_regression/example6/example6.go)
 
-## Logistic Regression
+## Logistic Regression 📈
 
 Logistic regression code examples:
 
@@ -39,20 +51,24 @@ Logistic regression code examples:
 - [Example 6: Evaluate the logistic regression model](logistic_regression/example6/example6.go)
 - [Example 6: Train a logistic regression model w/ github.com/cdipaolo/goml](logistic_regression/example7/example7.go)
 
-## Neural Networks
+## Neural Networks 🤖
 
 Neural Network code examples:
 
 - [Example 1: Building a simple neural network](neural_networks/example1/example1.go)
 - [Example 2: Utilizing the simple neural network for classification](neural_networks/example2/example2.go)
 
-## Deep Learning
+## Deep Learning 🤖
 
 Deep Learning code examples:
 
 - [Example 1: Using the TensorFlow Go bindings for inference](deep_learning/example1/example1.go)
 - [Example 2: Using GoCV to analyze video](deep_learning/example2/example2.go)
 - [Example 3: Sentiment analysis with MachineBox](deep_learning/example3/example3.go)
+
+## Hands on ⌨️ 
+
+[See here for hands-on/ project ideas](projects.md)
 
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).
