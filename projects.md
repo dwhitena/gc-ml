@@ -1,5 +1,5 @@
 # Project Ideas and DataSets
-For mote links clink [here](https://github.com/gopherdata/resources/blob/master/tooling/README.md)
+For more ml tools and information clink [here](https://github.com/gopherdata/resources/blob/master/tooling/README.md)
 
 ## Project - Sentiment Analysis
 
