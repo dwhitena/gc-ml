@@ -1,5 +1,16 @@
 # Project Ideas and DataSets
-For mote links clink [here](https://github.com/gopherdata/resources/blob/master/tooling/README.md)
+For more ml tools and information clink [here](https://github.com/gopherdata/resources/blob/master/tooling/README.md)
+
+*Purpose*: To use Go tool set to build, training, and evaluate an ML model. 
+
+## Steps 
+1. Find a group
+2. Pick a project
+3. Explore the data 
+4. Build out your model
+
+If you don't now where to start checkout this step by step [guide](https://github.com/ageron/handson-ml/blob/master/ml-project-checklist.md)
+---
 
 ## Project - Sentiment Analysis
 
