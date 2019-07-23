@@ -2,7 +2,7 @@
 
 # Machine Learning and AI with Go
 
-This is material for the 2019 "Machine learning and AI with Go" workshop at GopherCon. The workshop provides an intensive, comprehensive and idiomatic view on training, utilizing, evaluating, and deploying machine learning  and AI models using Go. We believe this class is perfect for anyone wishing to build data-driven applications that produce valuable insights, have reproducible behavior, and can be deployed within modern architectures.
+These materials are for the 2019 "Machine learning and AI with Go" workshop at GopherCon. The workshop provides an intensive and idiomatic view on training, utilizing, evaluating, and deploying machine learning and AI models using Go. This class is perfect for gophers wanting an approachable, code-first introduction to ML/AI.
 
 - [Slides from the workshop](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
 - Instructors 
@@ -26,9 +26,13 @@ This is material for the 2019 "Machine learning and AI with Go" workshop at Goph
 
 ## Introduction to Machine Learning and AI 🧠
 
+This session introduces the basics of Machine Learning and AI along with a whole bunch of related jargon. Are ML and AI the same thing or are they different? What differentiates them from traditional software engineering? How does a machine learn anyway? We will answer these questions and many more, such that you can communicate well with data science teams and understand the steps involved in most machine learning workflows.
+
 [See slides](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
 
 ## Linear Regression 📈
+
+There are a couple fundamental AI building blocks that show up all over AI applications. These are _linear regression_ and _gradient descent_. In this session, we will explore these building blocks by implementing them from scratch in Go. We will then utilize the `github.com/sajari/regression` package to extend our linear regression model to a multiple regression model.
 
 Linear regression code examples:
 
@@ -40,6 +44,8 @@ Linear regression code examples:
 - [Example 6: Evaluating regression models](linear_regression/example6/example6.go)
 
 ## Logistic Regression 📈
+
+Linear regression is great, but there's only so much you can do with it. It is, after all, limited to modeling rather simple relationships where one thing is proportional to changes in another thing. Not all relationships are like that. In particular, classification problems require us to model discrete states or categories, not continuous values. In this session, we will move from linear regression to _logistic regression_ such that we can model non-linear relationships.
 
 Logistic regression code examples:
 
@@ -53,12 +59,16 @@ Logistic regression code examples:
 
 ## Neural Networks 🤖
 
+Ok, in this session we finally get to the thing everyone is interested in... _neural nets_! Despite the intimidation that normally surrounds these seemingly magical, brain-like things, they aren't that much more complicated than our previous regression models. In this session, we will implement a simple neural network from scratch with Go to understand the fundamentals.
+
 Neural Network code examples:
 
 - [Example 1: Building a simple neural network](neural_networks/example1/example1.go)
 - [Example 2: Utilizing the simple neural network for classification](neural_networks/example2/example2.go)
 
 ## Deep Learning 🤖
+
+In this final teaching session, the concepts get very deep. We will take our basic neural network and figure out how we could modify it to be a _deep learning_ neural network (because, after we know about deep learning, we can all ask for a raise at our company). These super powerful networks can do amazing things, and it's not that difficult to leverage them in your Go applications!
 
 Deep Learning code examples:
 
@@ -68,7 +78,14 @@ Deep Learning code examples:
 
 ## Hands on ⌨️ 
 
-[See here for hands-on/ project ideas](projects.md)
+Based on feedback from previous GopherCon workshops, this iteration will include a couple hands-on options for the final session:
+
+1. Try your hand at training some of your own ML/AI models using publicly available data. [Mariah Peterson](https://github.com/Soypete) was nice enough to compile some data sets where you will be able flex your regression, classification, and neural net muscles. [See here for more information and instructions on getting started](projects.md).
+2. Learn how infrastructure projects written in Go (Docker, Kubernetes, Pachyderm, and Minio) can be used to deploy production ML/AI model training and inference. If you choose this option, you will follow a tutorial that will walk you through deploying a production ML pipeline on top of Kubernetes. [See here for more information and instructions on getting started](https://github.com/dwhitena/pach-go-regression). 
+
+The instructors and TAs will be available for questions during this time, but you can also follow up with the instructor during the rest of GopherCon or on Gophers Slack.
+
+
 
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).
