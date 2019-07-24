@@ -1,7 +1,15 @@
 # Project Ideas and Data Sets
-Awesome! You've chosen to train some of your own ML/AI models using new data sets. During this time, you are more than welcome to try your hand at some regression/classification problem you are facing at work, assuming you have the right data. However, we thought it may be useful to compile a set of well defined problems where there is public data available. Those are listed below. 
 
-Find a problem that looks interesting, assemble a team of 3-4 people, and _Go_ for it! Try using some of the methods we have introduced earlier in the day, or search for some other model that might be relevant. If you are having trouble figuring out where to start, ask the instructors and TAs. If you are looking for more relevant Go tooling, see [here](https://github.com/gopherdata/resources/blob/master/tooling/README.md).
+Awesome! You've chosen to train and evaluate some of your own ML/AI models using new data sets. We have compiled a set of problems with corresponding public data available (listed below).
+
+1. Assemble a group of 3-4 people (try to introduce yourself to some new gopher friends)
+2. Pick a project/problem
+3. Explore the data 
+4. Train/evaluate/integrate your model
+
+_Hint: If you don't now where to start check out [this step by step guide for ML projects](https://github.com/ageron/handson-ml/blob/master/ml-project-checklist.md)_
+
+_Hint: If you are looking for more relevant Go tooling, see [here](https://github.com/gopherdata/resources/blob/master/tooling/README.md)._
 
 ## Deep Learning for Sentiment Analysis
 

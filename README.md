@@ -7,7 +7,7 @@ These materials are for the 2019 "Machine learning and AI with Go" workshop at G
 - [Slides from the workshop](https://docs.google.com/presentation/d/1igJntH89r0qT3BhD-91AewOKz9CZ9FWfOmmicxino7k/edit?usp=sharing)
 - Instructors 
   - Daniel Whitenack - [website/blog](http://www.datadan.io/), [twitter](https://twitter.com/dwhitena), [github](https://github.com/dwhitena)
-  - Mariah Peterson - [twitter](https://twitter.com/captainnobody1), [github](https://github.com/Soypete)
+  - Miriah Peterson - [twitter](https://twitter.com/captainnobody1), [github](https://github.com/Soypete)
 - During the workshop, you will also need to work a bit at the command line. If you are new to the command line or need a refresher, look through [this guide](http://bit.ly/2SytJAR) or [this quick tutorial](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything).
 
 *Note: This material has been designed to be taught in a classroom environment at GopherCon. The code is well commented but missing some of the contextual concepts and ideas that will be covered in class.*
