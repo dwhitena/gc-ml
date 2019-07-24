@@ -10,61 +10,6 @@ import (
 	"strconv"
 )
 
-// squaredError returns the error associted with a particular
-// pair of prediction and observation.
-func squaredError(observation, prediction float64) float64 {
-	return math.Pow(observation-prediction, 2)
-}
-
-// sgdTrain calculates the ideal parameters using SGD for
-// a linear regression model.
-func sgdTrain(features, response []float64, lr float64, epochs int) (float64, float64, float64) {
-
-	// Initialize the weight and bias.
-	w := 0.0
-	b := 0.0
-
-	// Set the number of observations in the data.
-	n := float64(len(response))
-
-	// Loop over the number of epochs.
-	loss := 0.0
-	for i := 0; i < epochs; i++ {
-
-		// Calculate current predictions.
-		var predictions []float64
-		for _, x := range features {
-			predictions = append(predictions, w*x+b)
-		}
-
-		// Calculate the loss for this epoch.
-		loss = 0.0
-		for idx, p := range predictions {
-			loss += squaredError(p, response[idx]) / n
-		}
-
-		// Output some info to standard out so we know
-		// how training is progressing.
-		if i%10 == 0 {
-			fmt.Printf("Epoch %d, Loss %0.4f\n", i, loss)
-		}
-
-		// Calculate the gradients for w and b.
-		wGradient := 0.0
-		bGradient := 0.0
-		for idx, p := range predictions {
-			wGradient += -(2 / n) * (features[idx] * (response[idx] - p))
-			bGradient += -(2 / n) * (response[idx] - p)
-		}
-
-		// Update the weight and bias.
-		w = w - (lr * wGradient)
-		b = b - (lr * bGradient)
-	}
-
-	return w, b, loss
-}
-
 func main() {
 
 	// Open the Advertising data set.
@@ -138,4 +83,59 @@ func main() {
 
 	// Print our results.
 	fmt.Printf("\nRegression Formula:\ny = %0.2f * x + %0.2f\n\n", w, b)
+}
+
+// sgdTrain calculates the ideal parameters using SGD for
+// a linear regression model.
+func sgdTrain(features, response []float64, lr float64, epochs int) (float64, float64, float64) {
+
+	// Initialize the weight and bias.
+	w := 0.0
+	b := 0.0
+
+	// Set the number of observations in the data.
+	n := float64(len(response))
+
+	// Loop over the number of epochs.
+	loss := 0.0
+	for i := 0; i < epochs; i++ {
+
+		// Calculate current predictions.
+		var predictions []float64
+		for _, x := range features {
+			predictions = append(predictions, w*x+b)
+		}
+
+		// Calculate the loss for this epoch.
+		loss = 0.0
+		for idx, p := range predictions {
+			loss += squaredError(p, response[idx]) / n
+		}
+
+		// Output some info to standard out so we know
+		// how training is progressing.
+		if i%10 == 0 {
+			fmt.Printf("Epoch %d, Loss %0.4f\n", i, loss)
+		}
+
+		// Calculate the gradients for w and b.
+		wGradient := 0.0
+		bGradient := 0.0
+		for idx, p := range predictions {
+			wGradient += -(2 / n) * (features[idx] * (response[idx] - p))
+			bGradient += -(2 / n) * (response[idx] - p)
+		}
+
+		// Update the weight and bias.
+		w = w - (lr * wGradient)
+		b = b - (lr * bGradient)
+	}
+
+	return w, b, loss
+}
+
+// squaredError returns the error associted with a particular
+// pair of prediction and observation.
+func squaredError(observation, prediction float64) float64 {
+	return math.Pow(observation-prediction, 2)
 }
