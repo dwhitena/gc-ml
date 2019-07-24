@@ -13,7 +13,7 @@ _Hint: If you are looking for more relevant Go tooling, see [here](https://githu
 
 ## Deep Learning for Sentiment Analysis
 
-Sentiment analysis is a method that tries to determine whether a piece of text is generally _positive_ or _negative_ in tone and/or content. Certain implementations do this by predicting a score/number that is indicative of sentiment, while other implementions just return binary indications of sentiment. Gather some text data from one of the sources below and try to determine the sentiment of that text data. Some cool application/project ideas would be to:
+Sentiment analysis is a method that tries to determine whether a piece of text is generally _positive_ or _negative_ in tone and/or content. Certain implementations do this by predicting a score/number that is indicative of sentiment, while other implementations just return binary indications of sentiment. Gather some text data from one of the sources below and try to determine the sentiment of that text data. Some cool application/project ideas would be to:
 
 - Write a Go program that streams in tweets from Twitter and aggregates or updates a measure of sentiment on a certain topic or hashtag.
 - Answer some questions about the content on Hacker News. What is the overall sentiment of comments on the front page Hacker news articles? Which ones have the most positive sentiment? 
