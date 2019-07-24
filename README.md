@@ -15,12 +15,12 @@ These materials are for the 2019 "Machine learning and AI with Go" workshop at G
 ## Agenda
 
 9:00-9:30 Introductions, Logistics 🎤   
-9:30-10:30 [Introduction to ML/AI](#introduction-to-machine-learning-and-ai-) 🧠   
-10:30-11:00 Break ☕   
+9:30-10:45 [Introduction to ML/AI](#introduction-to-machine-learning-and-ai-) 🧠   
+10:45-11:00 Break ☕   
 11:00-12:00 [Linear and Logistic Regression](#linear-regression-) 📈   
-12:00-1:00 Lunch 🍕   
-1:00-2:00 [Neural Networks, Deep Learning](#neural-networks-) 🤖   
-2:30-3:00 Break ☕   
+12:00-1:15 Lunch 🍕   
+1:15-2:45 [Neural Networks, Deep Learning](#neural-networks-) 🤖   
+2:45-3:00 Break ☕   
 3:00-4:30 [Hands on](#hands-on-%EF%B8%8F) ⌨️   
 4:30-5:00 Next steps, Conclusions 💥   
 
@@ -72,9 +72,15 @@ In this final teaching session, the concepts get very deep. We will take our bas
 
 Deep Learning code examples:
 
-- [Example 1: Using the TensorFlow Go bindings for inference](deep_learning/example1/example1.go)
-- [Example 2: Using GoCV to analyze video](deep_learning/example2/example2.go)
-- [Example 3: Sentiment analysis with MachineBox](deep_learning/example3/example3.go)
+- [Example 1: Using the TensorFlow Go bindings for inference](deep_learning/example1/example1.go), Setup required:
+  - Download the Tensorflow model from [here](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz)
+  - Unzip the model files
+- [Example 2: Using GoCV to analyze video](deep_learning/example2/example2.go), Setup required:
+  - [Install GoCV](https://gocv.io/getting-started/)
+  - Download the TensorFlow Inception model from [here](https://storage.googleapis.com/download.tensorflow.org/models/inception5h.zip)
+  - Unzip the Inception model files.
+- [Example 3: Sentiment analysis with MachineBox](deep_learning/example3/example3.go), Setup required
+  - Run MachineBox's [Textbox](https://docs.veritone.com/#/developer/machine-box/boxes/textbox)
 
 ## Hands on ⌨️ 
 
