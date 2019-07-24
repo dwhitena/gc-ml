@@ -86,7 +86,7 @@ Deep Learning code examples:
 
 Based on feedback from previous GopherCon workshops, this iteration will include a couple hands-on options for the final session:
 
-1. Try your hand at training some of your own ML/AI models using publicly available data. [Mariah Peterson](https://github.com/Soypete) was nice enough to compile some data sets where you will be able flex your regression, classification, and neural net muscles. [See here for more information and instructions on getting started](projects.md).
+1. Try your hand at training some of your own ML/AI models using publicly available data. [Miriah Peterson](https://github.com/Soypete) was nice enough to compile some data sets where you will be able flex your regression, classification, and neural net muscles. [See here for more information and instructions on getting started](projects.md).
 2. Learn how infrastructure projects written in Go (Docker, Kubernetes, Pachyderm, and Minio) can be used to deploy production ML/AI model training and inference. If you choose this option, you will follow a tutorial that will walk you through deploying a production ML pipeline on top of Kubernetes. [See here for more information and instructions on getting started](https://github.com/dwhitena/pach-go-regression). 
 
 The instructors and TAs will be available for questions during this time, but you can also follow up with the instructor during the rest of GopherCon or on Gophers Slack.
